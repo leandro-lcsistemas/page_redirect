@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3aWxsaWFtLnJvZHJpZ3VlcyIsImlhdCI6MTY4MzMxNTM2OSwiZXhwIjoxNjgzMzg3MzY5fQ.88F7UdKnINntkJ8ofWZa86I5MI6myoKvt-1dNhnPtPipFMW0yJPXJ41_gHlZFJ9BUV9WtjGSrfTijLFdTzOXVQ'
+                'Authorization': '---'
             },
             body: JSON.stringify({ code: code })
         })
