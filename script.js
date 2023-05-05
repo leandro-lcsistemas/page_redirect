@@ -14,7 +14,10 @@ button.addEventListener('click', () => {
             body: JSON.stringify({ code: code })
         })
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => {
+                console.log(data);
+                window.close();
+            })
             .catch(error => console.error(error));
     } else {
         console.log('Não há código de autorização');
