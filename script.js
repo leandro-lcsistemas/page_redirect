@@ -9,14 +9,14 @@ button.addEventListener('click', () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': '---'
+                'Authorization': '-Bearer-'
             },
             body: JSON.stringify({ code: code })
         })
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                window.close();
+                window.location.href = "http://localhost:3000/app/info-revenda"
             })
             .catch(error => console.error(error));
     } else {
