@@ -18,7 +18,7 @@ button.addEventListener('click', () => {
             .then(data => {
                 console.log(data);
                 window.location.href = "http://localhost:3000/app/info-revenda"
-                window.alert('autorizado com sucesso')
+                window.location.reload()
             })
             .catch(error => console.error(error));
     } else {
