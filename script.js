@@ -17,8 +17,7 @@ button.addEventListener('click', () => {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                sessionStorage.clear()
-                window.location.href = "http://localhost:3000/Login"
+                window.location.href = "http://localhost:3000/app/info-revenda"
             })
             .catch(error => console.error(error));
     } else {
