@@ -17,7 +17,6 @@ button.addEventListener('click', () => {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                window.location.href = "http://localhost:3000/app/Info-revenda"
             })
             .catch(error => console.error(error));
     } else {
