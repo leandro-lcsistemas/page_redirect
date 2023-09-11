@@ -20,6 +20,7 @@ button.addEventListener('click', () => {
             })
             .catch(error => console.error(error));
     } else {
+        window.alert("Não há código de autorização");
         console.log('Não há código de autorização');
     }
 
