@@ -16,3 +16,5 @@ Senha: 12345678
 https://api.stage.cora.com.br/oauth/authorize?client_id=app-ozqJMAMjBpXtTmmuNbjir&response_type=code&redirect_uri=https://leandro-lcsistemas.github.io/page_redirect&scopes=invoice.
 
 3º Após as etapas anteriores, você deve clicar apenas uma vez no botão autorizar.
+
+OBS: Se existir um token de produção no banco local, o mesmo deve ser excluído antes de gerar o token em homologação.
