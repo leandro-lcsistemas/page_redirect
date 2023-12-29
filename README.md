@@ -1,6 +1,6 @@
 Está página é utilizada como página de redirecionamento dentro do fluxo de autorização em homologação para as emissões de boleto Cora.
 
-1º Na primeira etapa, é necessário fazer login no portal da revenda em localhost, esse token deve ser substituído dentro do arquivo javascript.
+1º Na primeira etapa, é necessário fazer login no portal da revenda em localhost e utilizar o token de autorização gerado, esse token deve ser substituído dentro do arquivo javascript (após o Bearer).
 
 2º Entre no link de autorização, após logar nesse link você será redirecionado para a página desse repositório: 
 Contas homologação:
