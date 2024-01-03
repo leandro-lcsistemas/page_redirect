@@ -17,6 +17,7 @@ button.addEventListener('click', () => {
             .then(response => response.json())
             .then(data => {
                 console.log(data);
+                window.alert("Autorização realizada com sucesso.");
             })
             .catch(error => console.error(error));
     } else {
