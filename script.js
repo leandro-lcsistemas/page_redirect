@@ -1,6 +1,7 @@
 const button = document.getElementById('button');
 
 button.addEventListener('click', () => {
+    button.disable = true;
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
     console.log(code)
