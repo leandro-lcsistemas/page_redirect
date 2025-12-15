@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjaWNlcm8ubW90YSIsImlhdCI6MTc2NTc5ODgyNSwiZXhwIjoxNzY1ODcwODI1fQ.Y8HOMhUMiHefc-YgKv-o1B1o5d8rFnxwzGN5WNE-_EHHoFPiB5aFKS56KGhPZGhtAnayt4wMH-zBU7RBJC7k3w'
+                'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBTENJTEVOTy5NSUdSQSIsImlhdCI6MTc2NTc5OTA4NiwiZXhwIjoxNzY1ODcxMDg2fQ.V6hy42OLQc0HU5XR47Y2eI91f2pYNFk5Ih8fk18R0oRJlA9C-HvQh-ixVaVnqFv2Fc3n0e2QIfqB9nFlfOrVBQ'
             },
             body: JSON.stringify({ code: code })
         })
